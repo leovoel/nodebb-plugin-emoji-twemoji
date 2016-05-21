@@ -1,0 +1,40 @@
+{
+  "name": "nodebb-plugin-emoji-twemoji",
+  "version": "1.0.0+@{build}",
+  "description": "Twitter emoji set for NodeBB (requires nodebb-plugin-emoji-extended)",
+  "main": "lib/controller.js",
+  "author": "leovoel <knarkleo@live.com> (https://github.com/leovoel)",
+  "contributors": [
+    "leovoel <knarkleo@live.com> (https://github.com/leovoel)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leovoel/@{name}.git"
+  },
+  "nbbpm": {
+    "id": "@{id}",
+    "name": "Twemoji",
+    "type": "@{type.name}",
+    "compatibility": "^1.0.0"
+  },
+  "keywords": [
+    "nodebb",
+    "@{type.name}",
+    "emoji-twemoji",
+    "twitter",
+    "twemoji"
+  ],
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "lodash": "^4.3.0",
+    "q": "^1.4.1",
+    "semver": "^5.1.0",
+    "wrench": "^1.5.8"
+  },
+  "peerDependencies": {
+    "nodebb-plugin-emoji-extended": "^1.0.0",
+    "nconf": "*",
+    "winston": "*"
+  }
+}

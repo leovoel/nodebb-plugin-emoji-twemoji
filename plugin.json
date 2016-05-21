@@ -1,0 +1,10 @@
+{
+  "id": "@{name}",
+  "version": "@{>version}",
+  "name": "@{nbbpm.name}",
+  "description": "@{description}",
+  "library": "@{main}",
+  "staticDirs": {"static": "public/static/"},
+  "languages": "public/locales",
+  "defaultLang": "en_US"
+}
