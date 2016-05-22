@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-emoji-twemoji",
-  "version": "1.0.0+@{build}",
+  "version": "1.0.1+@{build}",
   "description": "Twitter emoji set for NodeBB (requires nodebb-plugin-emoji-extended)",
   "main": "lib/controller.js",
   "author": "leovoel <knarkleo@live.com> (https://github.com/leovoel)",
